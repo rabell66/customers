@@ -1,0 +1,60 @@
+.customers{
+  display:flex;
+  flex-wrap:wrap;
+  
+}
+.customers div{
+    flex: 1 0 25%;
+    text-align:center;
+    margin:0 -20px;
+    
+}
+
+.pic{
+    width:80%;
+   
+}
+.fullName{
+    text-transform:uppercase;
+    font-size:large;
+    text-decoration:underline green;
+    
+    
+    
+   
+    
+ 
+
+}
+ h2{ font-size:0;
+   
+   }
+span{border:2px green solid;}
+
+.streetAddress{
+        color:#969696;
+        text-transform:capitalize;
+}
+.cityAndState{
+    padding: 1px 0;
+    margin: -11px 0 -3px 0;
+    color: #969696;
+    text-transform:capitalize;
+}
+
+.email{text-transform:uppercase;
+   color:lightgrey;
+   font-size:small;
+}
+
+.phoneNumber{
+    color:#969696;
+    padding: 0 0 80px;
+}
+       
+
+h1{
+    text-align:center; 
+   padding:2vw 0;
+
+}
